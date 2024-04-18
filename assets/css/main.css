@@ -1,0 +1,23 @@
+.dark {
+  background-color: #6D2E46;
+  color: #ece2d0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background-color: #ece2d0;
+  color: #6D2E46;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 12vw;
+}/*# sourceMappingURL=main.css.map */
