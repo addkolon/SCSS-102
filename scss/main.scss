@@ -1,7 +1,6 @@
-@import "./themes/dark-theme";
-
 // ABSTRACTS (UTILS)
-@import "./abstracts/variables";
+@import "./abstracts/fonts",
+        "./abstracts/variables";
 
 // BASE
 @import "./base/base",
@@ -12,9 +11,11 @@
 // COMPONENTS
 
 // LAYOUT
+@import "./layout/header";
 
 // PAGES
 
 // THEMES 
+@import "./themes/dark-theme";
 
 // VENDORS (Third-Party)
